@@ -1,0 +1,25 @@
+CATEGORY CLASSIFICATION REPORT
+                      precision    recall  f1-score   support
+
+     Billing inquiry       0.20      0.19      0.20       327
+Cancellation request       0.20      0.19      0.19       339
+     Product inquiry       0.21      0.21      0.21       328
+      Refund request       0.18      0.19      0.19       351
+     Technical issue       0.23      0.23      0.23       349
+
+            accuracy                           0.20      1694
+           macro avg       0.20      0.20      0.20      1694
+        weighted avg       0.20      0.20      0.20      1694
+
+
+PRIORITY CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+    Critical       0.22      0.21      0.22       426
+        High       0.27      0.28      0.28       417
+         Low       0.22      0.22      0.22       413
+      Medium       0.28      0.29      0.29       438
+
+    accuracy                           0.25      1694
+   macro avg       0.25      0.25      0.25      1694
+weighted avg       0.25      0.25      0.25      1694
